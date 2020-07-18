@@ -1,20 +1,7 @@
+
 # shacko
+Subscription tracker built using Nuxt.js
 
-## Build Setup
+![shakoscreenshot](https://ik.imagekit.io/4ynb7qbmbn/Dribbble_Shot_HD_-_12_d5ywQHwN8.png)
 
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[Visit](https://vercel.com/navaneethvijay/shacko/cth3daef4)
