@@ -5,9 +5,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'spa',
-  server: {
-    host: '192.168.0.6',
-  },
   /*
   ** Nuxt target
   ** See https://nuxtjs.org/api/configuration-target
