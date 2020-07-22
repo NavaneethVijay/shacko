@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       colors: {
         'panel-gray': '#202020',
+        'label-gray': '#666666',
+        'sub-prime': "#0F202A",
+        'sub-spotify': "#1DB954",
+        'sub-dribble': "#EA4C89"
       }
     }
   },

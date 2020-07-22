@@ -48,7 +48,7 @@
             <UpcomingCard />
           </swiper-slide>
           <swiper-slide>
-            <UpcomingCard bgcolor="bg-green-600" name="Spotify" type="pro" price="$199/m" />
+            <UpcomingCard bgcolor="bg-sub-spotify" name="Spotify" type="pro" price="$199/m" />
           </swiper-slide>
         </swiper>
       </div>
@@ -57,12 +57,14 @@
     <div class="mt-4">
       <h2 class="text-xl font-medium">Active Subscriptions</h2>
       <div class="py-4 mt-2">
-        <StackCard />
-        <StackCard bgcolor="bg-green-600" name="Spotify" type="pro" price="$199/m" />
-        <StackCard bgcolor="bg-pink-600" name="Dribble" type="Professional" price="$119/m" />
-        <StackCard bgcolor="bg-blue-900" name="Amazon Prime" type="pro" price="$99/m" />
-        <StackCard bgcolor="bg-white text-black" name="Vercel" type="team" price="$1450/m" />
-        <StackCard bgcolor="bg-red-900" name="Dribble" type="pro" price="$199/m" />
+        <v-expansion-panels flat>
+          <StackCard />
+          <StackCard bgcolor="bg-sub-spotify" name="Spotify" type="pro" price="$199/m" />
+          <StackCard bgcolor="bg-sub-dribble" name="Dribble" type="Professional" price="$119/m" />
+          <StackCard bgcolor="bg-sub-prime" name="Amazon Prime" type="pro" price="$99/m" />
+          <StackCard bgcolor="bg-white text-black" name="Vercel" type="team" price="$1450/m" />
+          <StackCard bgcolor="bg-red-900" name="Dribble" type="pro" price="$199/m" />
+        </v-expansion-panels>
       </div>
     </div>
   </div>
@@ -77,6 +79,7 @@ export default {
     },
     data() {
       return {
+        show: false,
         swiperOption: {
           slidesPerView: 1.3,
           spaceBetween: 30,

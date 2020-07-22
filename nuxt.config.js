@@ -29,13 +29,15 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/css/main.scss'
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    '~/plugins/swiper.js'
+    '~/plugins/swiper.js',
+    '~/plugins/vuetify.js'
   ],
   /*
   ** Auto import components
